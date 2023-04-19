@@ -1,0 +1,958 @@
+/* Responsive */
+@media screen and (max-width: 1326px) {
+  .playlist-right-border {
+    height: 70px;
+  }
+
+  .subscribe-content h1 {
+    padding-top: 2rem;
+  }
+
+  .parallax-img-grid {
+    width: 51%;
+    left: 129px;
+    top: 90px;
+  }
+
+  .featured-flex-end-populer-img {
+    padding-top: 5.6rem;
+  }
+
+  .gender,
+  .card-button,
+  .profile_img,
+  .profile_content {
+    flex-wrap: wrap;
+  }
+
+  .author-image {
+    height: 69vh;
+  }
+
+  .featured-flex-end-img {
+    height: 71.8vh;
+    width: 29%;
+    left: 63%;
+  }
+
+  .wpcast::before {
+
+    content: " ";
+    bottom: 35px;
+  }
+
+  .wpcast-btn::after {
+    bottom: 10px;
+  }
+
+  .wpcast-title {
+    font-size: 36px
+  }
+
+  .dots-container {
+    top: 34.5rem;
+  }
+
+  .caption {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  footer {
+    padding-bottom: 64px;
+  }
+
+  #myprogressbar {
+    width: 55vh;
+  }
+
+  .card_right_container {
+    top: 14%;
+  }
+
+  .modal1 {
+    overflow: auto;
+  }
+
+  .profile_img img {
+    width: 70%;
+    height: 24vh;
+  }
+
+
+  .modal-content1,
+  .modal-content3,
+  .modal-content4,
+  body {
+    width: fit-content;
+  }
+
+  .logout_img {
+    width: 44%;
+    left: 44%;
+  }
+
+  @media screen and (max-width: 1287px) {
+    .card-captions h1 {
+      font-size: 1.25rem;
+    }
+
+
+    .playlist-right-border {
+      padding: 0 2rem;
+    }
+  }
+
+  @media screen and (max-width: 1278px) {
+
+    /* @media screen and (min-width: 1216px) { */
+    .slide_content .btn {
+      padding: 10px 21px;
+    }
+
+    .banner_slide {
+      gap: 20px;
+    }
+
+  }
+
+  @media screen and (max-width: 1237px) {
+    .wpcast-btn::after {
+      display: none;
+    }
+
+    .wpcast-title {
+      font-size: 30px;
+    }
+
+    .wpcast::before {
+      width: 663px;
+
+    }
+  }
+
+  @media screen and (max-width: 1215px) {
+
+    /* @media screen and (min-width: 1111px) { */
+    .slide_content .btn {
+      padding: 10px 15px;
+    }
+
+    .banner_slide {
+      gap: 20px;
+    }
+
+    #parallax-img {
+      width: 47%;
+      left: 77px;
+    }
+
+    .featured-flex-end-img {
+      width: 35%;
+      left: 57%;
+    }
+
+    .parallax-img-grid {
+      max-width: 41%;
+    }
+
+    #progressBar {
+      width: 112vh;
+    }
+  }
+
+  @media screen and (max-width: 1196px) {
+    .search-user {
+      width: 43%;
+    }
+
+    nav ul.li {
+      font-size: 18px;
+    }
+
+    .footer_flex-end-list ul {
+      flex-wrap: wrap;
+    }
+  }
+
+  @media screen and (max-width: 1100px) {
+    .banner_slide {
+      flex-wrap: wrap;
+    }
+
+    .card-button {
+      top: 277px;
+      position: relative;
+    }
+
+    .slide_content .btn {
+      padding: 14px 19px;
+    }
+
+    .wpcast-btn button {
+      padding: 10px 12px;
+      font-size: 11px;
+    }
+  }
+
+  @media screen and (max-width: 1118px) {
+    .card-img-caption {
+      justify-content: space-between;
+    }
+
+    #nav-btn {
+      padding: 9px 15px;
+    }
+
+    nav ul li {
+      font-size: 19px;
+    }
+
+
+    .card_right_container {
+      position: relative;
+      left: 0;
+      transform: translate(34%);
+      padding-top: 6rem;
+    }
+
+    .model_img {
+      display: none !important;
+      ;
+    }
+
+    .card-flex-end-populer-img {
+      padding: 3rem 0;
+    }
+
+    .card-flex-right-img {
+      width: 40%;
+      height: 66vh;
+    }
+
+    .feature-container {
+      padding-top: 9rem;
+    }
+
+    #myprogressbar {
+      width: 45vh;
+    }
+
+    #myImg {
+      max-width: 200px;
+    }
+
+    .search-bar {
+      width: 38.5%;
+    }
+
+    .recent-podcast-img img {
+      width: 12%;
+      height: 92px;
+    }
+
+    .recent-podcast-caption {
+      width: 275px;
+    }
+
+    .recent-podcast-bottom-border {
+      left: 23.5%;
+      width: 48%;
+    }
+
+    .card-img,
+    .card_flex_content {
+      width: 45%;
+      height: 67vh;
+    }
+
+    .card_container {
+      left: 0;
+    }
+
+    .card-content {
+      justify-content: center;
+    }
+
+    .card-btn {
+      width: auto;
+      margin-top: 2.5rem;
+      padding: 11px 22px;
+
+    }
+
+    .post-container {
+      text-align: center;
+    }
+
+    .post-container h1 {
+      font-size: 29px;
+    }
+
+  }
+
+  @media screen and (max-width: 1084px) {
+    .wpcast::before {
+      width: 563px;
+    }
+
+
+    .playlist-right-border {
+      padding: 0 1.5rem;
+    }
+
+    .play-podcast-content-title h6 {
+      font-size: 12px;
+    }
+
+    .play-podcast-content-title p {
+      font-size: 11.5px;
+    }
+  }
+
+  @media screen and (max-width: 1018px) {
+    .wpcast::before {
+      display: none;
+    }
+
+    .wpcast-title {
+      font-size: 23px;
+    }
+  }
+
+  @media screen and (max-width: 1008px) {
+    #nav-btn {
+      font-size: 15px;
+    }
+
+    .search-user {
+      gap: 7px;
+    }
+
+    #fa-search {
+      display: none;
+    }
+
+    #progressBar {
+      width: 88vh;
+    }
+
+    nav ul li {
+      font-size: 19px;
+    }
+
+    .search-user {
+      width: auto;
+    }
+
+    .search-user .id02 {
+      border-left: none;
+    }
+  }
+
+  @media screen and (max-width: 952px) {
+
+    .featured-flex-end-img {
+      display: none;
+    }
+
+    .parallax-img-grid {
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%);
+      width: 70%;
+      min-width: 75%;
+    }
+
+    nav ul li {
+      font-size: 16px;
+    }
+
+    .wpcast-ser,
+    .search-user {
+      width: auto;
+    }
+
+    .dropdown-content {
+      font-size: 14px;
+    }
+
+  }
+
+
+  @media screen and (max-width: 916px) {
+    #nav-btn {
+      padding: 9px 11px;
+    }
+  }
+
+  @media screen and (max-width: 888px) {
+    #progressBar {
+      width: 72vh;
+    }
+
+    nav ul,
+    .brand {
+      display: none;
+
+    }
+
+    .navbar {
+      padding: 19px 21px;
+    }
+
+    .nav {
+      display: block;
+    }
+
+    .dropdown-content {
+      right: 31px;
+
+    }
+
+    .dropdown-content a {
+      padding: 12px 6px;
+    }
+
+    .subscribe-content h1 {
+      font-size: 24px;
+    }
+
+    .subscription_content #email {
+      padding: 0.7rem 9rem 0.7rem 9px;
+    }
+
+
+    .subscription_content button {
+      padding: 0.7rem 2.3rem;
+    }
+
+  }
+
+
+  @media screen and (max-width: 853px) {
+
+    .wpcast-title {
+      font-size: 22px
+    }
+
+    .wpcast-per {
+      font-size: 13px;
+    }
+
+    .wpcast-btn button {
+      padding: 8px 10px;
+      font-size: 10px;
+    }
+
+    .card_right_container {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 817px) {
+    .card_right_container {
+      display: none;
+    }
+
+    #progressBar {
+      width: 63vh;
+    }
+
+    .volume-container {
+      padding: 0 22px;
+    }
+  }
+
+  @media screen and (max-width: 753px) {
+    #progressBar {
+      width: 59vh;
+    }
+
+    .playlist-right-border {
+      padding: 0 1rem;
+    }
+
+    .playlist_progress-bar {
+      gap: 13px;
+    }
+
+    .flex-2-play-icon {
+      gap: 11px;
+
+    }
+  }
+
+  @media screen and (max-width: 723px) {
+
+    .play-icon-flex-end .material-icons,
+    .card-content2,
+    .dots-container,
+    .card-captions p {
+      display: none;
+    }
+
+    .wpcast-ser {
+      width: auto;
+
+    }
+
+    .card_h5-h6,
+    .card-button {
+      flex-wrap: wrap;
+    }
+
+
+    .card-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #card-img,
+    #card-flex-content {
+      width: 67%;
+    }
+
+    #card-flex-content {
+      height: 37vh;
+    }
+
+    .more_btn {
+      font-size: 14px;
+      padding: 12px 22px;
+    }
+
+    .footer_flex-end-list ul li {
+      font-size: 13px !important;
+      ;
+    }
+
+    .footer-ul .fa {
+      width: 33px;
+      height: 33px;
+      font-size: 13px;
+    }
+
+    .feature-content-img-text h1 {
+      font-size: 1.7rem;
+    }
+
+    .slideshow-slide img {
+      height: 85vh;
+    }
+
+    .pfm-slide-flex {
+      top: 17%;
+    }
+
+    .dropdown-content {
+      min-width: 17%;
+    }
+
+    .wpcast-btn a {
+      padding: 12px 25px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .podcast-series h1 {
+      margin: 0;
+      padding-top: 37rem;
+      font-size: 29px;
+    }
+
+  }
+
+  @media screen and (max-width: 649px) {
+    #progressBar {
+      width: 32vh;
+    }
+
+  }
+
+
+  @media screen and (max-width: 641px) {
+
+    nav ul,
+    .wpcast::before,
+    .wpcast-btn::after,
+    .play-icon-flex-end,
+    .dots-container {
+      display: none;
+    }
+
+    #nav-btn {
+      width: 107px;
+      padding: 9px 0px;
+      font-size: 14px;
+    }
+
+    .search-user {
+      width: auto;
+    }
+
+    .search-user .id02 {
+      font-size: 15px
+    }
+
+    .search-user .id01 {
+      padding: 10px 23px;
+      font-size: 14px;
+    }
+
+    .sidenav {
+      width: 187px;
+
+    }
+
+    .sidenav ul {
+      font-size: 19px;
+    }
+
+    .dropdown .dropbtn {
+      padding: 4px 9px 4px 5px;
+      font-size: 13px;
+    }
+
+    .brand {
+      width: 26%;
+    }
+
+    .wpcast-title {
+      font-size: 25px
+    }
+
+
+    #fa-search {
+      padding: 4%;
+    }
+
+    .wpcast-btn button {
+      padding: 10px 13px;
+      font-size: 12px;
+    }
+
+    #nav {
+      position: absolute;
+    }
+
+    .prev,
+    .next {
+      font-size: 1.7rem;
+    }
+
+    .podcast-series h1 {
+      padding-top: 27rem;
+      font-size: 27px;
+    }
+
+    .card-button {
+      top: 266px;
+    }
+
+    .dropdown-content {
+      min-width: 17%;
+    }
+
+    .podcast-series h1 {
+      padding-top: 34rem;
+      font-size: 24px;
+    }
+  }
+
+  @media screen and (max-width: 506px) {
+
+    .card-button {
+      top: 264px;
+    }
+
+    .banner_slide {
+      padding: 0;
+      width: fit-content;
+      gap: 30px;
+    }
+
+    .banner_slide .slide {
+      padding: 32px;
+      border-radius: 0;
+    }
+
+    .search-user .id01 {
+      padding: 9px 22px;
+      font-size: 13px;
+    }
+
+    .dropdown .dropbtn {
+      padding: 3px 9px 3px 5px;
+      font-size: 12px;
+    }
+
+    .search-user .id02,
+    .play-song-podcast-container {
+      display: none;
+    }
+
+
+    .wpcast-btn {
+      flex-wrap: wrap;
+    }
+
+    .prev {
+      left: 21px;
+    }
+
+    .next {
+      right: 21px;
+    }
+
+    .wpcast-btn a,
+    .slide_content .btn {
+      padding: 12px 25px;
+      font-size: 11px;
+    }
+
+    .pfm-slide-flex {
+      padding: 3.5rem;
+    }
+
+    .wpcast-dot,
+    .wpcast-meta {
+      font-size: 11px;
+    }
+
+    .wpcast-title {
+      font-size: 20px;
+    }
+
+    #card-img,
+    #card-flex-content {
+      width: -webkit-fill-available;
+    }
+
+    .post-container h1 {
+      font-size: 23px;
+    }
+
+    .feature-content-img-text h1 {
+      font-size: 1.5rem;
+    }
+
+    .feature-content-img-text h1::after {
+      padding-top: 42px;
+      border-bottom: 4px solid #00a8c6;
+    }
+
+    footer {
+      padding-bottom: 0px;
+    }
+  }
+
+  @media screen and (max-width: 483px) {
+    .imgcontainer1 h1 {
+      text-align: center;
+      font-size: 24px;
+    }
+
+    .profile_container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 2rem;
+
+    }
+
+    .save_btn {
+      bottom: 11px;
+    }
+  }
+
+  @media screen and (max-width: 560px) {
+
+    .post-border,
+    .pd-border {
+      border: 2px solid #00a8c6;
+    }
+
+    .slide_content h2 {
+      font-size: 1.97rem;
+    }
+
+    .slide_content p {
+      font-size: 15px;
+    }
+
+    .card-button {
+      top: 254px;
+    }
+
+    .subscribe-content h1 {
+      font-size: 18px;
+    }
+
+    .subscription_content #email {
+      padding: 0.6rem 6rem 0.6rem 7px;
+    }
+
+    .subscription_content button {
+      padding: 0.6rem 1.7rem;
+      font-weight: 500;
+    }
+  }
+
+  @media screen and (max-width: 465px) {
+    .nav {
+      font-size: 25px;
+    }
+
+    .search-user .id01,
+    .wpcast {
+      display: none;
+    }
+
+    .subscription_content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .subscription_content button {
+      position: relative;
+      top: 9px;
+    }
+
+    .subscription_content #email,
+    .subscription_content button {
+      font-size: 11px;
+    }
+  }
+
+
+  @media screen and (max-width: 365px) {
+    .footer_flex-end-list ul li {
+      font-size: 11px !important;
+    }
+
+    .footer-ul .fa {
+      width: 32px;
+      height: 32px;
+      font-size: 11px;
+    }
+
+    .card-button {
+      top: 179px;
+    }
+
+    .author_txt .btn {
+      padding: 11px 18px;
+    }
+
+    .author_txt .btn .material-icons,
+    .card_h5-h6,
+    .slide_content .btn-transparent,
+    #wpcast-btn-2 {
+      display: none;
+    }
+
+    .slide_content h2 {
+      font-size: 24px;
+    }
+
+    .banner_slide .slide {
+      height: 77vh;
+    }
+
+    .banner_slide .slide {
+      padding: 8px;
+    }
+
+    .slide_content .btn,
+    #wpcast-btn-1 {
+      padding: 10px 16px;
+    }
+
+    .card-captions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .feature-content-img-text h1 {
+      font-size: 1.2rem;
+    }
+
+    .author_txt h6 {
+      font-size: 13px;
+      line-height: 1.2;
+    }
+
+    .footer_content img {
+      width: 31vh;
+    }
+
+    .card-read-more a,
+    .fa-arrow-right {
+      font-size: 14px;
+    }
+
+    .author_txt h2,
+    .prev,
+    .next {
+      font-size: 1.3rem;
+    }
+
+    .author_txt::before {
+      height: 129%;
+    }
+
+
+    .pfm-slide-flex {
+      padding: 2.5rem;
+    }
+
+    .slide_content h6 {
+      font-size: 12px;
+
+    }
+
+    .more_btn {
+      font-size: 12px;
+      padding: 11px 19px;
+    }
+  }
+
+  @media screen and (max-width: 346px) {
+    .card-views {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 253px) {
+    .subscription_content #email {
+      padding-right: 16px;
+    }
+
+    .wpcast-per {
+      font-size: 9px;
+    }
+
+    .wpcast-title {
+      font-size: 16px;
+    }
+
+    .prev {
+      left: 8px;
+    }
+
+    .navbar {
+      padding: 19px 9px;
+    }
+
+    .card-button {
+      top: 148px;
+    }
+  }
+}

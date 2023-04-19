@@ -1,0 +1,451 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800;900&family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #03040e;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+.material-icons {
+    cursor: pointer;
+}
+
+
+/* head img */
+.podcast-playlist-img {
+    font-family: Rubik;
+}
+
+.podcast-playlist-img {
+    background: linear-gradient(45deg, black, transparent), url(./images/travels16.jpg) repeat fixed 100%;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+
+}
+
+.rm-head-caption {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 2rem;
+    align-items: center;
+}
+
+.rm-head-caption h1 {
+    font-size: 43px;
+    letter-spacing: 0.02em;
+    padding: 0rem 3rem;
+}
+
+.rm-head-caption p {
+    font-family: poppins;
+    letter-spacing: 0.04em;
+    font-size: 19px;
+    font-weight: 500;
+    padding: 0 7rem;
+    color: #fbfbfbcf;
+}
+
+.pd-border {
+    position: relative;
+    border: 2px solid #00a8c6;
+    width: 51px;
+    display: inline-block;
+    bottom: 19px;
+}
+
+/* podcast */
+
+
+/* card */
+.main-page {
+    display: flex;
+    gap: 37px;
+    padding: 5rem 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.banner_slide {
+    display: flex;
+    gap: 37px;
+    padding: 0 5rem;
+    filter: drop-shadow(1px 1px 1px black);
+
+
+}
+
+.slide_content {
+    padding: 0 0 0 14px;
+}
+
+.banner_slide .slide {
+    /* background: linear-gradient(127deg, black, transparent), url(./images/series-9-370x450.jpg); */
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    width: 100%;
+    height: 81vh;
+    padding: 17px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 3px;
+}
+
+.banner_slide .slide:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 15px;
+    transition: all 0.3s ease;
+    transform: scale(1.03);
+}
+
+/* .banner_slide .slide_two {
+    background: linear-gradient(127deg, black, transparent), url(./images/food8-370x370.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner_slide .slide_three {
+    background: linear-gradient(127deg, black, transparent), url(./images/teenager-wearing-headphone.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+
+.banner_slide .slide_four {
+    background: linear-gradient(127deg, black, transparent), url(./images/series-5-370x450.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner_slide .slide_five {
+    background: linear-gradient(127deg, black, transparent), url(./images/mindful.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner_slide .slide_six {
+    background: linear-gradient(127deg, black, transparent), url(./images/series-6-370x450.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner_slide .slide_seven {
+    background: linear-gradient(127deg, black, transparent), url(./images/series-4-370x450.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner_slide .slide_eight {
+    background: linear-gradient(127deg, black, transparent), url(./images/series-8-370x450.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner_slide .slide_nine {
+    background: linear-gradient(127deg, black, transparent), url(./images/serie-1-370x450.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.slide_content .slide-border {
+    color: #fff;
+    padding: 0 0 0 8px;
+    border-left: 5px solid #00a8c6;
+    display: block;
+
+}
+
+.slide_content h2 {
+    font-family: Rubik;
+    font-weight: 500;
+    letter-spacing: -.04em;
+    text-transform: capitalize;
+    font-size: 1.99rem;
+}
+
+.slide_content h6 {
+    font-family: Rubik;
+    font-weight: 500;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    color: #ffffffe7;
+    font-size: 14px;
+}
+
+.slide_content p {
+    font-size: 17px;
+    line-height: 1.54;
+    letter-spacing: -0.020em;
+    color: #ffffffc7;
+    padding: 37px 0 0 0px;
+    font-family: Rubik;
+}
+
+.card-button {
+    justify-content: center;
+    display: flex;
+    gap: 6px;
+    position: absolute;
+    bottom: 47px;
+    align-items: center;
+}
+
+.slide_content .btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #00a8c6;
+    padding: 11px 19px;
+    border: 1px solid transparent;
+    transition: 0.3s ease-in-out;
+    border-radius: 25px;
+    font-family: Rubik;
+    font-weight: 500;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.btn i {
+    margin-right: 7px;
+}
+
+#icon-wifi {
+    transform: rotate(45deg);
+}
+
+.slide_content .btn:hover {
+    background-color: transparent;
+    border-color: #fff;
+    outline-offset: 3px;
+
+}
+
+.slide_content .btn-transparent {
+    background-color: transparent;
+    border-color: #fff;
+    outline-color: #fff;
+}
+
+.slide_content .btn-transparent:hover {
+    background-color: #00a8c6;
+
+}
+
+
+/* footer */
+
+
+.footer_content_image {
+    background: url(./images/bg-4.jpg) no-repeat center;
+    height: 60vh;
+    width: auto;
+    background-size: cover;
+
+}
+
+.footer_content .footer_flex-start {
+    color: #fff;
+}
+
+.footer_flex-start p {
+    font-family: Poppins;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    opacity: 0.7;
+    font-size: 14px;
+}
+
+.footer_flex-start p span {
+    color: #03c6e9;
+}
+
+.footer_content {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    align-items: center;
+}
+
+.footer_content img {
+    width: 42vh;
+    margin-bottom: 2rem;
+}
+
+.footer_flex-end-list {
+    padding-top: 7rem;
+}
+
+.footer_flex-end-list ul {
+    list-style: none;
+    gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_flex-end-list ul li {
+    font-family: Montserrat;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+.footer-ul .fa {
+    background-color: #00a8c6;
+    border: 1.5px solid transparent;
+    border-radius: 50%;
+    width: 37px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.footer-ul .fa:hover {
+
+    transform: scale(1.03);
+    color: #fff;
+    background-color: #13c3e3;
+}
+
+.footer_flex-end-list a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer_flex-end-list a:hover {
+    color: #03c6e9;
+}
+
+@media screen and (max-width: 344px) {
+    .slide_content .btn-transparent{
+        display: none;
+    }
+    .slide_content .btn{
+        position: absolute;
+        bottom: 17px;
+    }
+}
+
+@media screen and (max-width: 405px) {
+
+    .slide_five .card-button,
+    .slide_six .card-button,
+    .slide_seven .card-button {
+        top: 10rem;
+        flex-wrap: wrap;
+    }
+
+    .banner_slide h2 {
+        font-size: 27px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer_flex-end-list ul li {
+        font-size: 13px;
+    }
+
+    .footer-ul .fa {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media screen and (max-width: 603px) {
+    .rm-head-caption h1 {
+        font-size: 32px;
+    }
+
+    .rm-head-caption p {
+        font-size: 16px;
+    }
+
+    .pd-border {
+        width: 37px;
+        bottom: 21px;
+    }
+}
+
+@media screen and (max-width:1326px) {
+    body {
+        width: fit-content;
+    }
+}
+
+@media screen and (max-width:1224px) {
+    .slide_content .btn {
+        padding: 11px 19px;
+        font-size: 11px;
+    }
+
+    .slide_content p {
+        font-size: 15px;
+    }
+
+    .slide_content h2 {
+        font-size: 1.90rem;
+    }
+
+    .slide_content h6 {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:1114px) {
+    .banner_slide {
+        flex-wrap: wrap;
+    }
+
+    .card-button {
+        position: relative;
+        top: 13rem;
+    }
+}
+
+@media screen and (max-width:566px) {
+    .banner_slide {
+        padding: 0;
+    }
+}

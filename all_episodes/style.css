@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #262120;
+    /* width: fit-content; */
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+.material-icons {
+    cursor: pointer;
+}
+/* nav */
+nav ul li {
+    position: absolute;
+    color: #fff;
+    right: 2rem;
+    font-size: 20px;
+    list-style: none;
+    top: 2rem;
+    cursor: pointer;
+    text-decoration: underline;
+    font-family:Rubik;
+}
+
+nav ul li:hover{
+    transition:all 0.3s ease;
+    opacity:0.7;
+    
+}
+/* head img */
+.podcast-playlist-img {
+    font-family: Rubik;
+}
+
+.podcast-playlist-img {
+    /* background: linear-gradient(45deg, black, transparent), url(series-5-370x450.jpg) repeat fixed 100%; */
+    background-position: center !important;
+    background-size: cover !important;
+    height: 100vh;
+    display: grid;
+    align-items: center !important;
+
+}
+
+.rm-head-caption {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 2rem;
+    align-items: center;
+}
+
+.rm-head-caption h1 {
+    font-size: 35px;
+    letter-spacing: 0.02em;
+}
+
+.rm-head-caption p {
+    font-family: poppins;
+    letter-spacing: 0.04em;
+    font-size: 15px;
+    font-weight: 500;
+    padding:0 13rem;
+    color: #fbfbfbcf;
+}
+
+
+
+@media screen and (max-width: 620px) {
+    .rm-head-caption p {
+    font-size: 13px;
+    padding:0 2rem;
+
+    }
+    
+}
+/* podcast */
+.material-icons{
+    font-size: 4.5rem;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+
+}
+.material-icons:hover{
+    transition: all 0.3s;
+    
+}
+.episodes h1{
+color: #fff;
+text-align: center;
+font-family: Roboto;
+padding-bottom: 3rem;
+}
+.pd-border{
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    width: 53px;
+    display: inline-block;
+    bottom: 45px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(0, 168, 198);
+    border-image: initial;
+}
+
+.episodes{
+    padding-top: 7rem;
+}
+.episode_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* gap: 4rem; */
+}
+.ep-content{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    border: 1px solid #ffffff1c;
+    padding: 36px;
+    border-right: none;
+    border-left: none;
+}
+.ep-content-txt{
+    color: #fff;
+    display: grid;
+    gap: 10px;
+    width: 67%;
+    align-items: center;
+}
+.ep-content-txt h2{
+font-family: Rubik;
+font-weight: 500;
+cursor: pointer;
+transition:all 0.3s;
+
+}
+.ep-content-txt h2:hover{
+    color: #99744e;
+
+    transition:all 0.3s;
+}
+.ep-content-txt p{
+font-family: Rubik;
+    color: #ffffffc7;
+}
